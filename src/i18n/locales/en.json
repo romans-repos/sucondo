@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "home": "Home",
+    "oneBedroom": "1 Bedroom",
+    "twoBedroom": "2 Bedroom",
+    "amenities": "Amenities",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Luxury Living in the Heart of Chiang Mai",
+    "subtitle": "Experience modern comfort and Thai hospitality at Su Condo",
+    "exploreButton": "Explore Units"
+  },
+  "home": {
+    "modernLiving": {
+      "title": "Modern Living in a Traditional Setting",
+      "description": "Su Condo offers the perfect blend of contemporary comfort and Thai charm. Located in the heart of Chiang Mai, our luxury condominiums provide an unparalleled living experience with stunning views and world-class amenities.",
+      "startingPrice": "Starting Price",
+      "unitTypes": "Unit Types"
+    },
+    "images": {
+      "livingRoom": "Modern living room",
+      "bedroom": "Bedroom with city view"
+    }
+  },
+  "amenities": {
+    "title": "World-Class Amenities",
+    "subtitle": "Everything you need for comfortable modern living",
+    "pool": {
+      "title": "Swimming Pool",
+      "description": "Infinity pool with panoramic city views, perfect for relaxation and exercise"
+    },
+    "fitness": {
+      "title": "Fitness Center",
+      "description": "State-of-the-art equipment and dedicated yoga space"
+    },
+    "security": {
+      "title": "24/7 Security",
+      "description": "Round-the-clock security personnel and CCTV monitoring"
+    },
+    "cleaning": {
+      "title": "Cleaning Service",
+      "description": "Professional housekeeping services available on request"
+    },
+    "internet": {
+      "title": "High-Speed Internet",
+      "description": "Fiber-optic internet throughout the building"
+    },
+    "parking": {
+      "title": "Parking",
+      "description": "Secure underground parking with EV charging stations"
+    },
+    "cafe": {
+      "title": "Café & Lounge",
+      "description": "Cozy café and co-working space for residents"
+    },
+    "garden": {
+      "title": "Garden Terrace",
+      "description": "Landscaped garden with seating areas and BBQ facilities"
+    }
+  },
+  "oneBedroom": {
+    "title": "One Bedroom Residence",
+    "subtitle": "Perfect for Singles & Couples",
+    "description": "Our one-bedroom units offer the perfect balance of space and comfort. Each apartment features modern design elements, premium finishes, and stunning views of Chiang Mai.",
+    "features": {
+      "layout": "Modern open-plan layout",
+      "size": "45-50 square meters",
+      "kitchen": "Fully-equipped kitchen",
+      "balcony": "Private balcony",
+      "wardrobes": "Built-in wardrobes",
+      "internet": "High-speed internet ready"
+    },
+    "pricing": {
+      "title": "Pricing",
+      "startingPrice": "Starting Price",
+      "startingPriceValue": "฿2.5M",
+      "maintenance": "Maintenance Fee",
+      "maintenanceValue": "฿45/sqm/month"
+    },
+    "floorPlan": "Floor Plan"
+  },
+  "twoBedroom": {
+    "title": "Two Bedroom Residence",
+    "subtitle": "Ideal for Families",
+    "description": "Our two-bedroom residences offer generous living spaces perfect for families or those who desire extra room. Each unit features premium finishes, modern appliances, and thoughtful design details.",
+    "features": {
+      "size": "Spacious 70-75 square meters",
+      "masterBed": "Master bedroom with en-suite bathroom",
+      "guestBed": "Guest bedroom with separate bathroom",
+      "living": "Large living and dining area",
+      "kitchen": "Modern kitchen with island",
+      "balconies": "Two private balconies",
+      "wardrobes": "Built-in wardrobes in both bedrooms",
+      "laundry": "Separate laundry area"
+    },
+    "pricing": {
+      "title": "Pricing",
+      "startingPrice": "Starting Price",
+      "startingPriceValue": "฿4.2M",
+      "maintenance": "Maintenance Fee",
+      "maintenanceValue": "฿45/sqm/month"
+    },
+    "floorPlan": "Floor Plan"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Interested in making Su Condo your new home? Get in touch with us.",
+    "address": "168/2 Ban Sao Hin, Soi 5, Mueang Chiang Mai District, Chiang Mai 50000",
+    "phone": "+66 XX XXX XXXX",
+    "email": "contact@sucondo.com",
+    "mapTitle": "Su Condo Location",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  }
+}

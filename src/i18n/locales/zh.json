@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "首页",
+    "oneBedroom": "一居室",
+    "twoBedroom": "两居室",
+    "amenities": "设施",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "title": "清迈中心的奢华生活",
+    "subtitle": "在Su Condo体验现代舒适与泰式待客之道",
+    "exploreButton": "探索房型"
+  },
+  "home": {
+    "modernLiving": {
+      "title": "传统环境中的现代生活",
+      "description": "Su Condo完美融合现代舒适与泰式魅力。位于清迈中心，我们的豪华公寓提供无与伦比的居住体验，拥有壮丽的景观和世界级设施。",
+      "startingPrice": "起始价格",
+      "unitTypes": "户型"
+    }
+  },
+  "oneBedroom": {
+    "title": "一居室公寓",
+    "subtitle": "适合单身和情侣",
+    "description": "我们的一居室单位提供完美的空间和舒适平衡。每套公寓都配备现代设计元素、优质装修和清迈美景。",
+    "features": {
+      "layout": "现代开放式布局",
+      "size": "45-50平方米",
+      "kitchen": "设备齐全的厨房",
+      "balcony": "私人阳台",
+      "wardrobes": "嵌入式衣柜",
+      "internet": "高速网络就绪"
+    },
+    "pricing": {
+      "title": "价格",
+      "startingPrice": "起始价格",
+      "maintenance": "物业费"
+    }
+  },
+  "twoBedroom": {
+    "title": "两居室公寓",
+    "subtitle": "适合家庭",
+    "description": "我们的两居室公寓为家庭或需要更多空间的人提供宽敞的生活空间。每个单位都配备优质装修、现代电器和周到的设计细节。",
+    "features": {
+      "size": "宽敞的70-75平方米",
+      "masterBed": "带独立卫浴的主卧",
+      "guestBed": "带独立卫浴的客房",
+      "living": "宽敞的客厅和餐厅",
+      "kitchen": "带中岛的现代厨房",
+      "balconies": "两个私人阳台",
+      "wardrobes": "两间卧室均配备嵌入式衣柜",
+      "laundry": "独立洗衣区"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "想让Su Condo成为您的新家？请与我们联系。",
+    "form": {
+      "name": "姓名",
+      "email": "电子邮件",
+      "phone": "电话",
+      "message": "留言",
+      "submit": "发送消息"
+    }
+  }
+}
