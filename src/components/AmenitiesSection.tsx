@@ -1,4 +1,4 @@
-import { Waves, Dumbbell, ShieldCheck, Sparkles, Building2 } from 'lucide-react';
+import { Waves, Dumbbell, ShieldCheck, Sparkles, Building2, Wifi } from 'lucide-react';
 
 const amenities = [
   {
@@ -15,6 +15,11 @@ const amenities = [
     name: '24/7 Security',
     description: 'Rest easy with round-the-clock security service and CCTV monitoring',
     icon: ShieldCheck,
+  },
+  {
+    name: 'High Speed Internet',
+    description: 'Stay connected with complimentary high-speed fiber internet access',
+    icon: Wifi,
   },
   {
     name: 'Cleaning Service',

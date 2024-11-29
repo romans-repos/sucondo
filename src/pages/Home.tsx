@@ -30,7 +30,7 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80"
+                src="/src/images/livingroom.jpg"
                 alt="Modern living room"
                 className="rounded-lg object-cover h-64 w-full"
               />
