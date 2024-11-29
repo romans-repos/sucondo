@@ -16,7 +16,7 @@ export default function OneBedroom() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url("https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80")',
+            backgroundImage: 'url("/src/images/bedroom.jpg")',
           }}
         >
           <div className="absolute inset-0 bg-black/40" />
@@ -66,33 +66,22 @@ export default function OneBedroom() {
 
           <div className="space-y-6">
             <img
-              src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&q=80"
+              src="/src/images/1br-living.jpg"
               alt="Living room"
               className="rounded-lg w-full h-72 object-cover"
             />
             <div className="grid grid-cols-2 gap-6">
               <img
-                src="https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?auto=format&fit=crop&q=80"
+                src="/src/images/1br-living2.jpg"
                 alt="Kitchen"
                 className="rounded-lg w-full h-48 object-cover"
               />
               <img
-                src="https://images.unsplash.com/photo-1560185008-a33f941363c4?auto=format&fit=crop&q=80"
-                alt="Bedroom"
+                src="/src/images/1br-bathroom.jpg"
+                alt="Bathroom"
                 className="rounded-lg w-full h-48 object-cover"
               />
             </div>
-          </div>
-        </div>
-
-        <div className="mt-24">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Floor Plan</h2>
-          <div className="bg-white border border-gray-200 rounded-lg p-8 flex justify-center">
-            <img
-              src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80"
-              alt="One Bedroom Floor Plan"
-              className="max-w-2xl w-full"
-            />
           </div>
         </div>
       </div>

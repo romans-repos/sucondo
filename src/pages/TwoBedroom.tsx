@@ -86,17 +86,6 @@ export default function TwoBedroom() {
             </div>
           </div>
         </div>
-
-        <div className="mt-24">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Floor Plan</h2>
-          <div className="bg-white border border-gray-200 rounded-lg p-8 flex justify-center">
-            <img
-              src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80"
-              alt="Two Bedroom Floor Plan"
-              className="max-w-2xl w-full"
-            />
-          </div>
-        </div>
       </div>
     </div>
   );
