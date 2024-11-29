@@ -9,7 +9,7 @@ export default function Hero() {
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: 'url("/src/images/sucondo.jpg")',
+          backgroundImage: 'url("https://raw.githubusercontent.com/romans-repos/sucondo/refs/heads/main/src/images/sucondo.jpg")',
         }}
       >
         <div className="absolute inset-0 bg-black/40" />

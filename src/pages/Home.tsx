@@ -30,7 +30,7 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="/src/images/livingroom.jpg"
+                src="https://raw.githubusercontent.com/romans-repos/sucondo/refs/heads/main/src/images/livingroom.jpg"
                 alt="Modern living room"
                 className="rounded-lg object-cover h-64 w-full"
               />

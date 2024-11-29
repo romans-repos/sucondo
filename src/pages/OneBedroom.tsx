@@ -16,7 +16,7 @@ export default function OneBedroom() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url("/src/images/bedroom.jpg")',
+            backgroundImage: 'url("https://raw.githubusercontent.com/romans-repos/sucondo/refs/heads/main/src/images/bedroom.jpg")',
           }}
         >
           <div className="absolute inset-0 bg-black/40" />
@@ -66,18 +66,18 @@ export default function OneBedroom() {
 
           <div className="space-y-6">
             <img
-              src="/src/images/1br-living.jpg"
+              src="https://raw.githubusercontent.com/romans-repos/sucondo/refs/heads/main/src/images/1br-living.jpg"
               alt="Living room"
               className="rounded-lg w-full h-72 object-cover"
             />
             <div className="grid grid-cols-2 gap-6">
               <img
-                src="/src/images/1br-living2.jpg"
+                src="https://raw.githubusercontent.com/romans-repos/sucondo/refs/heads/main/src/images/1br-living2.jpg"
                 alt="Kitchen"
                 className="rounded-lg w-full h-48 object-cover"
               />
               <img
-                src="/src/images/1br-bathroom.jpg"
+                src="https://raw.githubusercontent.com/romans-repos/sucondo/refs/heads/main/src/images/1br-bathroom.jpg"
                 alt="Bathroom"
                 className="rounded-lg w-full h-48 object-cover"
               />
