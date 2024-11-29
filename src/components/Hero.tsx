@@ -1,6 +1,5 @@
 import { ChevronDown } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -10,7 +9,7 @@ export default function Hero() {
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: 'url("/src/images/sucondo.jpg")',
+          backgroundImage: 'url("https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80")',
         }}
       >
         <div className="absolute inset-0 bg-black/40" />
@@ -23,12 +22,9 @@ export default function Hero() {
         <p className="text-xl md:text-2xl text-center mb-8 max-w-3xl">
           {t('hero.subtitle')}
         </p>
-        <Link 
-          to="/one-bedroom"
-          className="bg-white text-gray-900 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-200"
-        >
+        <button className="bg-white text-gray-900 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-200">
           {t('hero.exploreButton')}
-        </Link>
+        </button>
       </div>
 
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">

@@ -1,20 +1,17 @@
 import { Check } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
+
+const features = [
+  'Spacious 70-75 square meters',
+  'Master bedroom with en-suite bathroom',
+  'Guest bedroom with separate bathroom',
+  'Large living and dining area',
+  'Modern kitchen with island',
+  'Two private balconies',
+  'Built-in wardrobes in both bedrooms',
+  'Separate laundry area',
+];
 
 export default function TwoBedroom() {
-  const { t } = useTranslation();
-
-  const features = [
-    t('twoBedroom.features.size'),
-    t('twoBedroom.features.masterBed'),
-    t('twoBedroom.features.guestBed'),
-    t('twoBedroom.features.livingArea'),
-    t('twoBedroom.features.kitchen'),
-    t('twoBedroom.features.balconies'),
-    t('twoBedroom.features.wardrobes'),
-    t('twoBedroom.features.laundry'),
-  ];
-
   return (
     <div className="pt-16">
       <div className="relative h-[60vh]">
@@ -28,7 +25,7 @@ export default function TwoBedroom() {
         </div>
         <div className="relative h-full flex items-center justify-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white text-center">
-            {t('twoBedroom.title')}
+            Two Bedroom Residence
           </h1>
         </div>
       </div>
@@ -37,10 +34,12 @@ export default function TwoBedroom() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <div>
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              {t('twoBedroom.subtitle')}
+              Ideal for Families
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              {t('twoBedroom.description')}
+              Our two-bedroom residences offer generous living spaces perfect for 
+              families or those who desire extra room. Each unit features premium 
+              finishes, modern appliances, and thoughtful design details.
             </p>
             
             <ul className="space-y-4 mb-8">
@@ -53,15 +52,15 @@ export default function TwoBedroom() {
             </ul>
 
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('twoBedroom.pricing.title')}</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Pricing</h3>
               <div className="space-y-2">
                 <p className="flex justify-between">
-                  <span className="text-gray-600">{t('twoBedroom.pricing.startingPrice')}:</span>
-                  <span className="font-semibold text-gray-900">{t('twoBedroom.pricing.startingPriceValue')}</span>
+                  <span className="text-gray-600">Starting Price:</span>
+                  <span className="font-semibold text-gray-900">฿4.2M</span>
                 </p>
                 <p className="flex justify-between">
-                  <span className="text-gray-600">{t('twoBedroom.pricing.maintenance')}:</span>
-                  <span className="font-semibold text-gray-900">{t('twoBedroom.pricing.maintenanceValue')}</span>
+                  <span className="text-gray-600">Maintenance Fee:</span>
+                  <span className="font-semibold text-gray-900">฿45/sqm/month</span>
                 </p>
               </div>
             </div>
@@ -70,7 +69,7 @@ export default function TwoBedroom() {
           <div className="space-y-6">
             <img
               src="https://images.unsplash.com/photo-1565183997392-2f6f122e5912?auto=format&fit=crop&q=80"
-              alt={t('twoBedroom.title')}
+              alt="Living room"
               className="rounded-lg w-full h-72 object-cover"
             />
             <div className="grid grid-cols-2 gap-6">
@@ -89,11 +88,11 @@ export default function TwoBedroom() {
         </div>
 
         <div className="mt-24">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">{t('twoBedroom.floorPlan')}</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Floor Plan</h2>
           <div className="bg-white border border-gray-200 rounded-lg p-8 flex justify-center">
             <img
               src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80"
-              alt={t('twoBedroom.floorPlan')}
+              alt="Two Bedroom Floor Plan"
               className="max-w-2xl w-full"
             />
           </div>

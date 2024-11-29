@@ -1,5 +1,4 @@
 import { Check } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
 
 const features = [
   'Modern open-plan layout',
@@ -11,17 +10,6 @@ const features = [
 ];
 
 export default function OneBedroom() {
-  const { t } = useTranslation();
-
-  const featuresTranslated = [
-    t('oneBedroom.features.layout'),
-    t('oneBedroom.features.size'),
-    t('oneBedroom.features.kitchen'),
-    t('oneBedroom.features.balcony'),
-    t('oneBedroom.features.wardrobe'),
-    t('oneBedroom.features.internet'),
-  ];
-
   return (
     <div className="pt-16">
       <div className="relative h-[60vh]">
@@ -35,7 +23,7 @@ export default function OneBedroom() {
         </div>
         <div className="relative h-full flex items-center justify-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white text-center">
-            {t('oneBedroom.title')}
+            One Bedroom Residence
           </h1>
         </div>
       </div>
@@ -44,14 +32,16 @@ export default function OneBedroom() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <div>
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              {t('oneBedroom.subtitle')}
+              Perfect for Singles & Couples
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              {t('oneBedroom.description')}
+              Our one-bedroom units offer the perfect balance of space and comfort. 
+              Each apartment features modern design elements, premium finishes, and 
+              stunning views of Chiang Mai.
             </p>
             
             <ul className="space-y-4 mb-8">
-              {featuresTranslated.map((feature) => (
+              {features.map((feature) => (
                 <li key={feature} className="flex items-center">
                   <Check className="h-5 w-5 text-green-500 mr-3" />
                   <span className="text-gray-700">{feature}</span>
@@ -60,15 +50,15 @@ export default function OneBedroom() {
             </ul>
 
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('oneBedroom.pricing.title')}</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Pricing</h3>
               <div className="space-y-2">
                 <p className="flex justify-between">
-                  <span className="text-gray-600">{t('oneBedroom.pricing.startingPrice')}:</span>
-                  <span className="font-semibold text-gray-900">{t('oneBedroom.pricing.startingPriceValue')}</span>
+                  <span className="text-gray-600">Starting Price:</span>
+                  <span className="font-semibold text-gray-900">฿2.5M</span>
                 </p>
                 <p className="flex justify-between">
-                  <span className="text-gray-600">{t('oneBedroom.pricing.maintenance')}:</span>
-                  <span className="font-semibold text-gray-900">{t('oneBedroom.pricing.maintenanceValue')}</span>
+                  <span className="text-gray-600">Maintenance Fee:</span>
+                  <span className="font-semibold text-gray-900">฿45/sqm/month</span>
                 </p>
               </div>
             </div>
@@ -77,7 +67,7 @@ export default function OneBedroom() {
           <div className="space-y-6">
             <img
               src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&q=80"
-              alt={t('oneBedroom.title')}
+              alt="Living room"
               className="rounded-lg w-full h-72 object-cover"
             />
             <div className="grid grid-cols-2 gap-6">
@@ -96,11 +86,11 @@ export default function OneBedroom() {
         </div>
 
         <div className="mt-24">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">{t('oneBedroom.floorPlan')}</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Floor Plan</h2>
           <div className="bg-white border border-gray-200 rounded-lg p-8 flex justify-center">
             <img
               src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80"
-              alt={t('oneBedroom.floorPlan')}
+              alt="One Bedroom Floor Plan"
               className="max-w-2xl w-full"
             />
           </div>

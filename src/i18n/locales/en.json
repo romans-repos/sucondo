@@ -17,10 +17,6 @@
       "description": "Su Condo offers the perfect blend of contemporary comfort and Thai charm. Located in the heart of Chiang Mai, our luxury condominiums provide an unparalleled living experience with stunning views and world-class amenities.",
       "startingPrice": "Starting Price",
       "unitTypes": "Unit Types"
-    },
-    "images": {
-      "livingRoom": "Modern living room",
-      "bedroom": "Bedroom with city view"
     }
   },
   "amenities": {
@@ -74,11 +70,8 @@
     "pricing": {
       "title": "Pricing",
       "startingPrice": "Starting Price",
-      "startingPriceValue": "฿2.5M",
-      "maintenance": "Maintenance Fee",
-      "maintenanceValue": "฿45/sqm/month"
-    },
-    "floorPlan": "Floor Plan"
+      "maintenance": "Maintenance Fee"
+    }
   },
   "twoBedroom": {
     "title": "Two Bedroom Residence",
@@ -93,23 +86,11 @@
       "balconies": "Two private balconies",
       "wardrobes": "Built-in wardrobes in both bedrooms",
       "laundry": "Separate laundry area"
-    },
-    "pricing": {
-      "title": "Pricing",
-      "startingPrice": "Starting Price",
-      "startingPriceValue": "฿4.2M",
-      "maintenance": "Maintenance Fee",
-      "maintenanceValue": "฿45/sqm/month"
-    },
-    "floorPlan": "Floor Plan"
+    }
   },
   "contact": {
     "title": "Contact Us",
     "subtitle": "Interested in making Su Condo your new home? Get in touch with us.",
-    "address": "168/2 Ban Sao Hin, Soi 5, Mueang Chiang Mai District, Chiang Mai 50000",
-    "phone": "+66 XX XXX XXXX",
-    "email": "contact@sucondo.com",
-    "mapTitle": "Su Condo Location",
     "form": {
       "name": "Name",
       "email": "Email",

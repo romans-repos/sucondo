@@ -1,5 +1,4 @@
-import { Waves, Dumbbell, ShieldCheck, Sparkles, Building2, Wifi, Car, Coffee, TreePine } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
+import { Waves, Dumbbell, ShieldCheck, Sparkles, Building2 } from 'lucide-react';
 
 const amenities = [
   {
@@ -27,40 +26,18 @@ const amenities = [
     description: 'Walking distance to grocery stores and local amenities',
     icon: Building2,
   },
-  {
-    name: 'Internet',
-    description: 'Fast and reliable internet connection',
-    icon: Wifi,
-  },
-  {
-    name: 'Parking',
-    description: 'Secure and convenient parking options',
-    icon: Car,
-  },
-  {
-    name: 'Cafe',
-    description: 'Relax and socialize in our on-site cafe',
-    icon: Coffee,
-  },
-  {
-    name: 'Garden',
-    description: 'Peaceful and serene garden area',
-    icon: TreePine,
-  },
 ];
 
 export default function AmenitiesSection() {
-  const { t } = useTranslation();
-
   return (
     <section className="py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
-            {t('amenities.title')}
+            World-Class Amenities
           </h2>
           <p className="mt-4 text-xl text-gray-600">
-            {t('amenities.subtitle')}
+            Everything you need for comfortable modern living
           </p>
         </div>
 
@@ -73,12 +50,10 @@ export default function AmenitiesSection() {
               <div className="flex items-center mb-4">
                 <amenity.icon className="h-8 w-8 text-indigo-600" />
                 <h3 className="ml-3 text-xl font-semibold text-gray-900">
-                  {t(`amenities.${amenity.name.toLowerCase().replace(' ', '.')}title`)}
+                  {amenity.name}
                 </h3>
               </div>
-              <p className="text-gray-600">
-                {t(`amenities.${amenity.name.toLowerCase().replace(' ', '.')}description`)}
-              </p>
+              <p className="text-gray-600">{amenity.description}</p>
             </div>
           ))}
         </div>
