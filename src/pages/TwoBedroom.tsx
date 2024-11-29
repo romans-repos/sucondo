@@ -18,7 +18,7 @@ export default function TwoBedroom() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url("https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&q=80")',
+            backgroundImage: 'url("/src/images/2br-livingroom.jpg")',
           }}
         >
           <div className="absolute inset-0 bg-black/40" />
@@ -68,19 +68,19 @@ export default function TwoBedroom() {
 
           <div className="space-y-6">
             <img
-              src="https://images.unsplash.com/photo-1565183997392-2f6f122e5912?auto=format&fit=crop&q=80"
+              src="/src/images/2br-hero.jpg"
               alt="Living room"
               className="rounded-lg w-full h-72 object-cover"
             />
             <div className="grid grid-cols-2 gap-6">
               <img
-                src="https://images.unsplash.com/photo-1560448075-bb485b067938?auto=format&fit=crop&q=80"
-                alt="Master bedroom"
+                src="/src/images/2br-kitchen.jpg"
+                alt="Kitchen"
                 className="rounded-lg w-full h-48 object-cover"
               />
               <img
-                src="https://images.unsplash.com/photo-1560449752-09cfece3660f?auto=format&fit=crop&q=80"
-                alt="Second bedroom"
+                src="/src/images/2br-master-bedroom.jpg"
+                alt="Master bedroom"
                 className="rounded-lg w-full h-48 object-cover"
               />
             </div>
