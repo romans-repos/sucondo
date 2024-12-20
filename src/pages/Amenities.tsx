@@ -43,12 +43,6 @@ const amenities = [
     icon: Coffee,
     image: 'https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80',
   },
-  {
-    name: 'Garden Terrace',
-    description: 'Landscaped garden with seating areas and BBQ facilities',
-    icon: TreePine,
-    image: 'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&q=80',
-  },
 ];
 
 export default function Amenities() {
