@@ -26,7 +26,7 @@ const amenities = [
     image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&q=80',
   },
   {
-    name: 'High-Speed Internet',
+    name: 'Free Internet',
     description: 'Fiber-optic internet throughout the building',
     icon: Wifi,
     image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80',
