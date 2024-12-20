@@ -1,5 +1,6 @@
 import { ChevronDown } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -23,7 +24,7 @@ export default function Hero() {
           {t('hero.subtitle')}
         </p>
         <button className="bg-white text-gray-900 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-200">
-          {t('hero.exploreButton')}
+          <Link to="/one-bedroom">{t('hero.exploreButton')}</Link>
         </button>
       </div>
 
